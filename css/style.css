@@ -1,0 +1,28 @@
+@import url("http://fonts.googleapis.com/css?family=Rajdhani");
+html,
+body {
+  height: 100%;
+  margin: 0px;
+  overflow: hidden;
+}
+
+body {
+  background: #fff;
+  font: 15px;
+  font-family: 'Rajdhani', sans-serif;
+  position: relative;
+}
+
+
+.logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 30%;
+    width: 50%;
+    margin: -15% 0 0 -25%;
+}
+
+.text-xs-center{
+    background: #00c1fc;
+}
