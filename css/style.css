@@ -2,8 +2,7 @@
 html,
 body {
   height: 100%;
-  margin: 0px;
-  overflow: hidden;
+  overflow: scroll;
 }
 
 body {
@@ -12,7 +11,6 @@ body {
   font-family: 'Rajdhani', sans-serif;
   position: relative;
 }
-
 
 .logo {
     position: absolute;
@@ -25,4 +23,61 @@ body {
 
 .text-xs-center{
     background: #00c1fc;
+}
+
+.center{
+  text-align: center;
+}
+
+.navbar-custom{
+  border-radius: 0px !important;
+}
+
+.black{
+  background-color: black;
+}
+
+.blue{
+  background-color: #03A9F4;
+}
+
+.white-letters{
+  color: white!important;
+}
+
+h1, .h1, h2, .h2, h3, .h3 ,p {
+    margin: 10px 20px 10px 20px!important;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.parallax2 { 
+    /* The image used */
+    background-image: url('4.jpg');
+
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3 { 
+    /* The image used */
+    background-image: url('1.jpg');
+
+    /* Set a specific height */
+    height: 400px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
