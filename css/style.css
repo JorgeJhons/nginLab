@@ -54,13 +54,18 @@ a {
     text-decoration: none;
 }
 
-.parallax3 { 
+.inicio  { 
     /* The image used */
-    background-image: url('1.jpg');
+    background-image: url('3.jpg');
+}
+.custom {
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    min-height: 100%;
+    padding-top: 85px;
+    padding-bottom: 85px;
 }
 
