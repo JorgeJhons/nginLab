@@ -21,6 +21,10 @@ body {
     margin: -15% 0 0 -25%;
 }
 
+.logo2{
+    margin: -8% 0 0 -2%;
+}
+
 .text-xs-center{
     background: #00c1fc;
 }
@@ -62,5 +66,9 @@ a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+img{
+  width: 500px;
 }
 
